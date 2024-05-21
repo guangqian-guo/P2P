@@ -13,6 +13,7 @@ Point-supervised vision tasks, including detection and segmentation, aiming to l
 
 
 ## Getting started
+Coming soon...
 
 ### Install
 
@@ -38,5 +39,5 @@ Point-supervised vision tasks, including detection and segmentation, aiming to l
 
 
 
-## Bibtex
+## Citation
 
