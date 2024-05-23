@@ -324,14 +324,14 @@ class MILLoss(nn.Module):
         B, N, C = bag_cls_prob.shape
         prob_cls = bag_cls_prob.unsqueeze(dim=-1)  # (B, N, C, 1)
         
-        # =======================================================================#
+        # ==============================P2BNet loss=========================================#
         # prob_ins = bag_ins_outs.reshape(B, N, C, -1)  # (B, N, C, 2/1)
         # prob_ins = prob_ins.softmax(dim=1) * valid.unsqueeze(dim=-1)
         # prob_ins = F.normalize(prob_ins, dim=1, p=1)
         # prob = (prob_cls * prob_ins).sum(dim=1)
         #========================================================================#
         
-        # =======================================================================#
+        # ============================ Ours ===========================================#
         if bag_ins_outs is not None:
             prob_ins = bag_ins_outs.reshape(B, N, C, -1)  # (B, N, C, 1)
             prob_ins = prob_ins.softmax(dim=1) * valid.unsqueeze(dim=-1)
@@ -343,7 +343,7 @@ class MILLoss(nn.Module):
         else:
             prob = prob_cls.mean(dim=1)
         # =============================================================================#
-        # prob_ins = F.normalize(prob_ins, dim=1, p=1)   # NOTE !!!! zhu shi
+        # prob_ins = F.normalize(prob_ins, dim=1, p=1)   # NOTE !!!! comment
 
         # for i in range(len(prob_ins)):
             
