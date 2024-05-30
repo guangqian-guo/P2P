@@ -175,7 +175,6 @@ work_dir = '../'
 evaluation = dict(
     interval=12, metric='bbox',
     save_result_file='work-dir/COCO/sepg/' + '_1200_latest_result.json',
-    # save_result_file='work-dir/COCO/MobileSAM_PRNetv7_Headv11_MSEv7_2iter/3iter_12poch' + '_1200_6epoch_result.json',
     do_first_eval=False,  # test
     do_final_eval=True,
 )
