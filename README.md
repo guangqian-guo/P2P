@@ -22,12 +22,10 @@
 
 ## 🥇 Results
 
-<img src="asserts\coco_det.png" alt="image-20240427161339686" style="zoom:100%;" />
+<img src="asserts\coco-det.png" alt="image-20240427161339686" style="zoom:100%;" />
 
 
-<img src="asserts\coco_seg.png" alt="image-20240427161339686" style="zoom:100%;" />
-
-
+<img src="asserts\coco-seg.png" alt="image-20240427161339686" style="zoom:100%;" />
 
 
 
