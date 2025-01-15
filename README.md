@@ -17,18 +17,15 @@
 ## 🔍 Visual Results
 
 
-
-![image-20250115101130496](asserts\coco_vis.png)
-
+<img src="asserts\coco_vis.png" alt="image-20240427161339686" style="zoom:100%;" />
 
 
 ## 🥇 Results
 
-![image-20250115101004902](asserts\coco_det.png)
+<img src="asserts\coco_det.png" alt="image-20240427161339686" style="zoom:100%;" />
 
 
-
-![image-20250115101024917](asserts\coco_seg.png)
+<img src="asserts\coco_seg.png" alt="image-20240427161339686" style="zoom:100%;" />
 
 
 
