@@ -18,17 +18,17 @@
 
 
 
-![image-20250115101130496](C:\Users\ggq\AppData\Roaming\Typora\typora-user-images\image-20250115101130496.png)
+![image-20250115101130496](asserts\image-20250115101130496.png)
 
 
 
 ## 🥇 Results
 
-![image-20250115101004902](C:\Users\ggq\AppData\Roaming\Typora\typora-user-images\image-20250115101004902.png)
+![image-20250115101004902](asserts\image-20250115101004902.png)
 
 
 
-![image-20250115101024917](C:\Users\ggq\AppData\Roaming\Typora\typora-user-images\image-20250115101024917.png)
+![image-20250115101024917](asserts\image-20250115101024917.png)
 
 
 
